@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.container{
+    margin-top:5rem;
+}
+h1{
+    text-align: center;
+    color:brown;
+}
+
+form{
+    margin:3rem 2rem 3rem 10rem;
+}
+
+.leaveDate, .returnDate, .nameField{
+    display:block;
+    margin:1rem 9rem;
+}
+
+button{
+    margin:1rem 17rem;
+    width:16rem;
+}
+small{
+    color:red;
+    margin-left: 10rem;
+}

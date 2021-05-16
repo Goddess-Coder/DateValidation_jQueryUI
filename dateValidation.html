@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Validation + jQuery UI</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/dark-hive/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dateValidation.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="dateValidation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <h1>Lets Plan Your Cruise!</h1>
+            </div>
+            <!-- col-md-12 -->
+            <div class="col-md-8 inputFields">
+                <form>
+                        <input class="form-control leaveDate"  type="text" id="leaveDate" placeholder="From:">
+                        <small id="smallLeave">You must select a Leave Date!</small>
+                        <input class="form-control returnDate" type="text" id="returnDate" placeholder="To:">
+                        <small id="smallReturn">You must select a Return Date!</small>
+                        <input class="form-control nameField"  type="text" id="name" placeholder="Name:">
+                        <small id="smallName">Your name is required!</small>
+
+                        <button type="submit" class="btn btn btn-success btn-sm" >CONFIRM DATES</button>
+                </form>
+            </div>
+            <!-- col-md-8 -->
+        </div>
+        <!-- first row -->
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+</body>
+</html>
